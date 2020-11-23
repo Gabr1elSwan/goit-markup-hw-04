@@ -1,0 +1,748 @@
+/* !!!!!!!!!LOGO!!!!!!!! */
+.logo-web{
+    color: #2196F3;
+    margin-top: 60px;
+}
+.logo-stydio{
+    color: #000000;
+}
+.logo-stydio-botton{
+    color: #FFFFFF;
+}
+.logo{
+margin-right: 93px;
+
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+}
+/* !!!!!!!!!THE END LOGO!!!!!!!! */
+
+/* !!!!!!!!!!!!!ДЛЯ ВСЕХ!!!!!!!! */
+
+a{
+text-decoration: none;
+}
+ul{
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+body{
+    margin: 0;
+}
+img{
+    display: block;
+}
+
+
+/* !!!!!!!!!THE END ДЛЯ ВСЕХ!!!! */
+
+/* !!!!!!!!!!!!!!HEADER!!!!!!!!! */
+
+.section-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list{
+    display: flex;
+    align-items: center;  
+}
+
+.navifation-inform{
+    display: flex;
+    align-items: center;  
+}
+.navigation-list-item{
+    margin-right: 50px;
+}
+
+.navigation-list-item:last-child{
+    margin-right: 0;
+}
+
+.navigation-list-link{
+padding-top: 32px;
+padding-bottom: 32px;
+
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.navigation-inform-link:hover,
+.navigation-inform-link:focus{
+color: #2196F3;
+}
+
+.navigation-inform-item:last-child{
+    margin-right: 0;
+}
+
+.navigation-inform-item{
+    margin-right: 50px;
+}
+
+.navigation-inform-link{
+display: flex;
+align-content: center;
+padding-top: 32px;
+padding-bottom: 32px;
+
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
+
+.navifation-inform-svg-mail{
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    background-position: center;
+}
+
+.navifation-inform-svg-telefon{
+    width: 15px;
+    height: 19px;
+    margin-right: 10px;
+}
+
+.navigation-inform-link:hover .navifatoin-inform-pictures-mail{
+    fill:#2196F3;
+}
+
+.navigation-inform-link:hover .navifatoin-inform-pictures{
+    fill:#2196F3;
+}
+/* !!!!!!!!!THE END HEADER!!!!!!!! */
+
+/* !!!!!!!!!!!HERO!!!!!!!!!!!!!!! */
+
+.container{
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+
+}
+
+.hero-title{
+    /* background: #2F303A;
+    height: 600px; */
+      
+}
+
+.section-hero{
+    
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px 0;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Img.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-inside-title{
+margin-top: 0px;
+margin-bottom: 40px;
+
+
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.363;
+
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;;
+}
+
+.hero-inside-button{
+
+display: inline-block;
+border-radius: 4px;
+padding: 10px 32px;
+min-width: 130px;
+
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+cursor: pointer;
+}
+
+/* !!!!!!!!!!!THE END HERO!!!!!!!! */
+
+/* !!!!!!!!!!ПРЕИМУЩЕСТВА!!!!!!!! */
+
+.advantages-list-item::before{
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: rgba(245, 244, 250, 1);
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.list-item-sputnik::before{
+    background-image: url("../icon/sputnik.svg");
+}
+
+.list-item-clock::before{
+    background-image: url("../icon/clock.svg");
+}
+
+.list-item-noyt::before{
+    background-image: url("../icon/noyt.svg");
+}
+
+.list-item-kosmonavt::before{
+    background-image: url("../icon/kosmonavt.svg");
+}
+
+.advantages{
+padding-top: 94px;  
+}
+
+.advantages-list{
+    display: flex;
+    align-items: center;
+    
+}
+
+.advantages-list-item{
+    margin-right: 30px;
+}
+
+.dvantages-list-item-title{
+    margin-right: 30px;
+}
+
+.advantages-list-item:last-child{
+    margin-right: 0;
+}
+
+.advantages-list-item-title{
+margin: 0;
+margin-bottom: 10px;
+
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+
+.advantages-list-item-position{
+margin: 0;
+
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.advantages{
+    padding-bottom: 47px;
+}
+
+/* !!!!!!!!THE END ПРЕИМУЩЕСТВА!!!!!! */
+
+/* !!!!!!!!!!Чем занимаемся!!!!!!!!!!! */
+
+.doing-list{
+    display: flex;
+    align-items: center; 
+}
+
+.doing-list-item{
+    
+    margin-right: 30px;
+}
+
+.doing-list-item:last-child{
+    margin-right: 0;
+}
+
+.doing{
+    padding-bottom: 94px;
+    padding-top: 47px;
+    
+    
+}
+
+.title{
+margin: 0;
+margin-bottom: 50px;
+
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.166;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+/* !!!!!!!THE END Чем занимаемся!!!!!!!! */
+
+/* !!!!!!!!!!Наша команда!!!!!!!!!!! */
+
+
+.team{
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
+.team-list{
+    display: flex;
+    align-items: center; 
+    
+}
+
+
+.fon-team{
+    background: #F5F4FA;
+}
+
+.team-list-img:last-child{
+margin-right: 0;
+}
+
+.team-list-item-title{
+margin: 0;
+margin-top: 30px;
+
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.team-list-item-position{
+margin: 0;
+margin-top: 10px;
+margin-bottom: 16px;
+
+
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.team-list-img{
+    margin-right: 30px;
+}
+
+.team-list-item:last-child{
+    margin-right: 0;
+}
+
+
+
+.team-list-content-wraper{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.social-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-list-svg{
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
+.social-list-item{
+    margin-right: 10px;
+}
+
+.social-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    
+}
+
+
+.social-list-link:hover .social-list-svg{
+    fill: #FFFFFF;
+}
+
+.social-list-link:hover,
+.social-list-link:focus{
+    background-color: #2196F3;
+}
+
+.card-content-team{
+margin-right: 30px;
+padding:20px 20px;
+margin-bottom: 30px;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+    
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+ border-radius: 0px 0px 4px 4px;
+    }
+
+/* !!!!!!!!!!THE END Наша команда!!!!!!!!!!! */
+
+/* !!!!!!!!!!!!!Потоянные клиенты!!!!!!!!!!!!!!!! */
+
+.clients-list-item-link:hover .clients-list-item-tagline,
+.clients-list-item-link:hover .clients-list-item-yago,
+.clients-list-item-link:hover .clients-list-item-company,
+.clients-list-item-link:hover .clients-list-item-fooster,
+.clients-list-item-link:hover .clients-list-item-brand,
+.clients-list-item-link:hover .clients-list-item-companytagline{
+    fill:#2196F3;
+}
+
+.clients-list-item-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.clients-list-item-link:hover{
+    border-color: #2196F3;
+}
+
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-list{
+    display: flex;
+    align-items: center; 
+    
+}
+
+.clients-list-item-yago{
+    width: 45px;
+    height: 78px;  
+    fill: #AFB1B8;
+}
+.clients-list-item-tagline{
+    width: 60px;
+    height: 71px;
+    fill: #AFB1B8; 
+}
+.clients-list-item-company{
+    width: 59px;
+    height: 43px;
+    fill: #AFB1B8;
+}
+.clients-list-item-fooster{
+    width: 80px;
+    height: 70px;
+    fill: #AFB1B8;
+}
+.clients-list-item-brand{
+    width: 70px;
+    height: 51px;
+    fill: #AFB1B8;
+}
+.clients-list-item-companytagline{
+    width: 89px;
+    height: 80px;
+    fill: #AFB1B8;
+}
+
+.clients-list-item{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 30px;
+width: 170px;
+height: 90px;
+
+
+}
+
+
+/* !!!!!!!!!!!!!The end Потоянные клиенты!!!!!!!!!!!!!!!! */
+
+
+/* !!!!!!!!!!!!!!!!Футер!!!!!!!!!!!!!!!! */
+
+.fon{
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.logo-address{
+    font-style: normal;
+}
+
+.adres{
+margin-top: 20px;
+margin-bottom: 9px;
+
+font-family: 'Roboto', sans-serif;
+font-weight:400;
+font-size: 14px;
+line-height:1.714;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+
+.footer-inform-link-email{
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height:1.714;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-inform-link-tel{
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height:1.714;
+letter-spacing: 0.03em;
+    
+color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!Портфолио!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+.products-title-list:last-child{
+    margin-right: 0;
+}
+
+.products-title-list{
+    margin-right: 8px;
+}
+
+.button{
+padding: 6px 22px;
+border: none;
+
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+letter-spacing: 0.03em;
+color: #212121;
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.button:hover,
+.button:focus{
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+.projects-list-title{
+padding: 0;
+margin: 0;
+margin-bottom: 4px;
+    
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+color: #212121;
+}
+
+
+
+.projects-list-title-position{
+padding: 0;
+margin-bottom: 0px;
+
+
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.projects-list-item{
+    width: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+    
+}
+
+.project-list-img{
+    display: block;
+}
+
+.products-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.projects-list-item:nth-child(3n){
+    margin-right: 0;
+}
+
+.products{
+    padding-top: 100px;
+    padding-bottom: 94px;
+
+}
+
+.card-content{
+padding:20px 24px;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+
+}
+
+.projects-list-item{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+
+}
+
+.header-portfolio{
+    border-bottom: 1px solid #ECECEC;
+}
+
+.title-footer{
+font-family: 'Roboto', sans-serif;
+font-style: 400;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.footer-social-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social-list-svg{
+    width: 20px;
+    height: 20px;
+    fill:#FFFFFF;
+}
+
+.footer-social-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);;
+}
+
+.footer-social-list-link:hover{
+    background-color: #2196F3;
+}
+
+.footer-social{
+    margin-left: 156px;
+}
+
+.footer-social-list-item{
+    margin-right: 10px;
+}
+
+.container-footer{
+    display: flex;
+}
+
+.projects-list-item:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
